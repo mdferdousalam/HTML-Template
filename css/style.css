@@ -1,0 +1,351 @@
+ 
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+
+a{
+	text-decoration: none;
+}
+ul, ol {
+	list-style: none;
+}
+
+img {
+	vertical-align: middle;
+}
+.clr {
+	clear:both;
+}
+.full-wrapper {
+	width:100%;
+}
+.container {
+	width:1140px;
+	margin: 0 auto;
+}
+
+/*Header section start.*/
+#top-header{
+	position: relative;
+}
+
+.left-logo{
+	width: 20%;
+	float:left;
+}
+
+.right-menu{
+	width:80%;
+	float:left;
+	text-align: right;
+
+}
+
+.delevery p {
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	color:#3d2514;
+}
+
+.main-menu ul li  {
+	display:inline-block;
+	padding: 15px;
+	margin-top: 10px;
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 1px;
+	font-size: 20px;
+	
+
+}
+.main-menu ul li a {
+	color:#3d2514;
+
+
+}
+.main-menu ul li:last-child{
+	padding: 0;
+}
+
+
+/*hero section start*/
+
+		#hero-bg {
+		    background: url(../images/Hero-background.png);
+		    background-size: cover;
+		    /* background-position: center; */
+		    background-repeat: no-repeat;
+		    padding-top: 20px;
+		    height: 375px;
+		}
+
+	.left-hero-content{
+		color:#3d2514;
+		width: 50%;
+		text-transform: uppercase;
+		top: 100px;
+		float: left;
+	}
+
+	.right-hero-image{
+		width: 50%;
+		float: left;
+	}
+
+	
+ 
+	.right-hero-image img {
+   	 /* width: 100%; */
+   		 height: 544px;
+    	/* padding-left: 105px; */
+   	 	float: right;
+   	 	position: relative;
+    	top: -100px;
+
+	}
+
+	.left-hero-content h2{
+		font-size: 75px;
+		font-family: 'Alfa Slab One', cursive;
+		letter-spacing: 1px;
+		text-shadow: 5px 5px #eae6e5fa;
+ 	}
+ 	.left-hero-content h3{
+		font-size: 55px;
+		font-family: 'Alfa Slab One', cursive;
+		letter-spacing: 1px;
+		text-shadow: 5px 5px #eae6e5fa;
+ 	}
+ 	.left-hero-content h4{
+ 		border: 2px dashed #3d2514;
+ 		padding: 5px;
+ 		border-width: 2px;
+
+ 	}
+ 	..left-hero-content h4{
+ 		width: 100%;
+ 	}
+
+.offer {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 65px;
+    border: 2px dashed white;
+    border-radius: 50%;
+    padding-bottom: 44px;
+    color: white;
+}
+
+.price {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: -264px;
+    margin-left: 205px;
+    position: absolute;
+}
+
+#offer{
+	float: right;
+	clear: both;
+	overflow: hidden;
+
+}
+
+
+/*popular burger section start here*/
+
+  .left-food-img{
+        width: 48%;
+        float: left;
+        margin-right: 15px;
+        position: relative;
+    }
+    .food-content{
+        position: absolute;
+        left: 30px;
+        top: 20px;
+        width: 100%;
+    }
+    .left-food-img img{
+        width: 100%;
+    }
+    .food-right-two-img{
+        width: 48%;
+        float: left;
+        margin-left: 15px;
+    }
+
+.food-right-two-img img{
+    width: 100%;
+}
+
+#section-padding{
+    padding: 60px 0px;
+}
+.right-img1{
+    margin-bottom: 30px;
+}
+
+.food-btn{
+    text-align: center;
+}
+.food-btn a {
+    padding: 15px 15px;
+    background: #FFC135;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+/*choose section start here*/
+
+
+.chose-main-section{
+    text-align: center;
+        margin-bottom: 50;
+}
+.chose-first-header h2{
+    color: #42200B;
+    font-size: 75px;
+    font-weight: bold;
+}
+.chose-secend-content p {
+    font-size: 20px;
+    color: #000;
+    line-height: 26px;
+}
+
+.chose-item{
+    width: 30%;
+    text-align: center;
+    float: left;
+    padding-left: 30px;
+    margin-bottom: 30px
+}
+
+
+.item-btn{
+    text-align: center;
+}
+.item-btn a {
+    padding: 10px 15px;
+    background: #DF1C1C;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 18px;
+}
+.chose-item p{
+    margin-bottom: 15px;
+}
+
+.chose-item {
+    width: 30%;
+    text-align: center;
+    float: left;
+    padding-left: 57px;
+}
+.chose-item:first-child{
+    padding-left: 0px;
+}
+
+.burger-list{
+	display: flex;
+	align-items: center;
+}
+
+
+
+/*Slider section start here*/
+
+.slider-content{
+    width: 50%;
+    float: left;
+}
+.slider-image{
+    width: 50%;
+    float: left;
+}
+.slider-image img{
+    width: 100%;
+}
+
+.slider-content h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.slider-content h2 {
+    font-size: 45px;
+}
+
+.slider-content p {
+    padding-right: 60px;
+    font-size: 20px;
+}
+#slider {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+.slider-main{
+    width: 100%;
+
+}
+
+.slider-main {
+    width: 100%;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.75) 15px 14px 22px -14px;
+	padding: 15px;
+    margin-bottom: 30px;
+}
+
+
+/*Reservation start here*/
+
+
+.contact-content h2 {
+    font-size: 60px;
+}
+.contact-content {
+    text-align: center;
+}
+.contact-content h4 {
+    font-size: 20px;
+}
+
+.form{
+    margin:0 auto;
+    text-align: center;
+}
+
+
+.main-contact{
+    width: 650px;
+    margin: 0 auto;
+}
+
+.first-inp {
+    width: 50%;
+    float: left;
+}
+
+.first-inp input {
+    width: 90%;
+}
+.first-inp input {
+    width: 85%;
+    padding: 15px 10px;
+}
+
+.first-inp input {
+    width: 85%;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+}
+
+
